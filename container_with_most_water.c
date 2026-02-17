@@ -1,10 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-/**
- * Core Logic: Two-Pointer Approach
- * Time Complexity: O(n)
- */
 int maxArea(int* height, int heightSize) {
     int left = 0;
     int right = heightSize - 1;
@@ -61,4 +56,5 @@ int main() {
     free(height);
 
     return 0;
+
 }
